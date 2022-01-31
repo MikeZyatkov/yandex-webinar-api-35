@@ -1,0 +1,57 @@
+html {
+    font-family: "Helvetica Neue", sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding-left: 16px;
+    color: #ffffff;
+    position: relative;
+    height: calc(100vh - 22px);
+}
+
+.messages__list {
+    height: 550px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.message {
+    display: flex;
+}
+
+.message_user {
+    font-weight: 500;
+    margin-right: 16px;
+}
+
+.message__delete-button {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 70px;
+    color: #fff;
+}
+
+.messages-form {
+    position: absolute;
+    bottom: 60px;
+}
+
+.form_input {
+    height: 40px;
+    width: 400px;
+}
+
+.form_button {
+    height: 46px;
+}

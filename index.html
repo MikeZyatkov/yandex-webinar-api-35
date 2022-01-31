@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Спринт 9 -- Чат</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Чат вебинара:</h1>
+        <div class="messages__list"></div>
+
+        <div class="messages-form"></div>
+    </div>
+
+<template class="message-template">
+    <div class="message">
+        <p class="message_user"></p>
+        <p class="message__text"></p>
+        <button class="message__delete-button">Удалить</button>
+    </div>
+</template>
+
+<template class="form-template">
+    <form class="form">
+        <input name="message" type="text" class="form_input" autocomplete="off">
+        <button class="form_button" type="submit">Отправить</button>
+    </form>
+</template>
+
+<script type="module" src="js/pages/index.js"></script>
+</body>
+</html>
