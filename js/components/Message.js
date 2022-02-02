@@ -2,7 +2,7 @@ class Message {
     constructor({data, handleDeleteButtonClick}, messageSelector) {
         this._user = data.user;
         this._text = data.message;
-        this._id = data._id;
+        this._id = data.id;
         this._handleDeleteButtonClick = handleDeleteButtonClick;
         this._messageSelector = messageSelector;
     }
